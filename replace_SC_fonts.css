@@ -1,36 +1,41 @@
 /* Replaces Simplified Chinese fonts */
 
+:root {
+    --serif-font: 'LiSong Pro';
+    --sans-font: 'PingFang HK';
+}
+
 @font-face {
     font-family: 'noto serif sc';
-    src: local('noto serif hk');
+    src: local(--serif-font);
 }
 
 @font-face {
     font-family: 'SongTi SC';
-    src: local('noto serif hk');
+    src: local(--serif-font);
 }
 
 @font-face {
     font-family: 'noto sans sc';
-    src: local('PingFang HK');
+    src: local(--sans-font);
 }
 
 @font-face {
     font-family: 'PingFang SC';
-    src: local('PingFang HK');
+    src: local(--sans-font);
 }
 
 @font-face {
     font-family: 'Hiragino Sans GB';
-    src: local('PingFang HK');
+    src: local(--sans-font);
 }
 
 @font-face {
     font-family: 'Microsoft YaHei UI';
-    src: local('PingFang HK');
+    src: local(--sans-font);
 }
 
 @font-face {
     font-family: 'Microsoft YaHei';
-    src: local('PingFang HK');
+    src: local(--sans-font);
 }
