@@ -1,5 +1,7 @@
 /* Replaces Simplified Chinese fonts */
 
+/* You might also want to add these codes to a CSS sytle injection add-on such as "Stylish" */
+
 @font-face {
     font-family: 'noto serif sc';
     src: local('LiSong Pro');
