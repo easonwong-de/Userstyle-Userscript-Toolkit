@@ -1,0 +1,40 @@
+table {
+	width: 100% !important;
+}
+
+div.a03 {
+	color: #555 !important;
+    line-height: normal !important;
+}
+
+div.a03 img {
+	max-height: 10rem !important;
+    transition: all 0.15s ease-in-out;
+}
+
+div.a03 img:hover {
+	transform: scale(120%);
+    box-shadow: black 0px 0px 15px;
+}
+
+div.a03 a {
+	display: inline-block !important;
+    color: #eee !important;
+}
+
+div.a03 strong {
+	display: block !important;
+    margin: 5rem 0 1rem !important;
+    font-size: 3rem !important;
+    font-weight: 200 !important;
+}
+
+div.a03 br {
+    display: block !important;
+}
+
+a + font:first-of-type::before {
+	content: "";
+	display: block;
+	height: 1rem;
+}
