@@ -1,0 +1,8 @@
+#mw-content-text {
+    font-family: serif !important;
+}
+
+h1, #mw-content-text h2, #mw-content-text h3 {
+    font-weight: 900;
+    font-family: sans-serif !important;
+}
