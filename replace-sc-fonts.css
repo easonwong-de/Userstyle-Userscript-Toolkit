@@ -1,0 +1,38 @@
+/* Replaces Simplified Chinese fonts */
+
+/* You might also want to add these codes to a CSS sytle injection add-on such as "Stylish" */
+
+@font-face {
+	font-family: "noto serif sc";
+	src: local("LiSong Pro");
+}
+
+@font-face {
+	font-family: "SongTi SC";
+	src: local("LiSong Pro");
+}
+
+@font-face {
+	font-family: "noto sans sc";
+	src: local("PingFang HK");
+}
+
+@font-face {
+	font-family: "PingFang SC";
+	src: local("PingFang HK");
+}
+
+@font-face {
+	font-family: "Hiragino Sans GB";
+	src: local("PingFang HK");
+}
+
+@font-face {
+	font-family: "Microsoft YaHei UI";
+	src: local("PingFang HK");
+}
+
+@font-face {
+	font-family: "Microsoft YaHei";
+	src: local("PingFang HK");
+}
