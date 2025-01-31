@@ -7,6 +7,7 @@
 // @description  Replaces simplified Chinese with traditional Chinese & automatically inserts spaces
 // @author       Eason (based on hoothin's version)
 // @require      https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js
+// @icon         https://easonwong.de/favicon.png
 // @match        *://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue
