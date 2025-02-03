@@ -368,7 +368,6 @@
 		if (parentNode) {
 			childNodes = parentNode.nodeType == Node.TEXT_NODE ? [parentNode] : parentNode.childNodes;
 		} else {
-			pangu.autoSpacingPage();
 			document.title = convertString(document.title);
 			childNodes = document.documentElement.childNodes;
 		}
@@ -416,6 +415,7 @@
 
 	function convertWebpage() {
 		if (isConversionDisabled) return;
+		pangu.autoSpacingPage();
 		convertTextInChildNodes();
 		const MutationObserver = window.MutationObserver ?? window.WebKitMutationObserver ?? window.MozMutationObserver;
 		const observer = new MutationObserver((mutations) => {
