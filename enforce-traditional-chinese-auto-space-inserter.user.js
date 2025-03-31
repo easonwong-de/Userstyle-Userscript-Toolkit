@@ -3,7 +3,7 @@
 // @namespace    easonwong
 // @supportURL   https://github.com/easonwong/
 // @homepageURL  https://github.com/easonwong/
-// @version      ver.2025-02-03-1
+// @version      ver.2025-03-31-1
 // @description  Replaces simplified Chinese with traditional Chinese & automatically inserts spaces
 // @author       Eason (based on hoothin's version)
 // @require      https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js
