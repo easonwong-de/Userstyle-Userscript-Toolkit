@@ -293,7 +293,7 @@ const vocabularyConversion = {
 			this.storage.getItem("domainSettings", (settingsData) => {
 				let allSettings = {};
 				try {
-					allSettings = settingsData ? JSON.parse(settingsData) : {};
+					allSettings = settingsData ? settingsData : {};
 				} catch (e) {
 					console.warn("Failed to parse domain settings:", e);
 					allSettings = {};
@@ -312,14 +312,14 @@ const vocabularyConversion = {
 			this.storage.getItem("domainSettings", (settingsData) => {
 				let allSettings = {};
 				try {
-					allSettings = settingsData ? JSON.parse(settingsData) : {};
+					allSettings = settingsData ? settingsData : {};
 				} catch (e) {
 					console.warn("Failed to parse domain settings:", e);
 					allSettings = {};
 				}
 
 				allSettings[domain] = settings;
-				this.storage.setItem("domainSettings", JSON.stringify(allSettings));
+				this.storage.setItem("domainSettings", allSettings);
 			});
 		}
 
