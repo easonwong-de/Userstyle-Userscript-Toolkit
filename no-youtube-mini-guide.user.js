@@ -83,6 +83,30 @@ ytd-rich-item-renderer[rendered-from-rich-grid][is-in-first-column] {
 .ytd-rich-shelf-renderer {
     --ytd-rich-grid-items-per-row: 5 !important;
 }
+@media (max-width: 1920px) {
+    .ytd-rich-grid-renderer,
+    .ytd-rich-shelf-renderer {
+        --ytd-rich-grid-items-per-row: 4 !important;
+    }
+}
+@media (max-width: 1440px) {
+    .ytd-rich-grid-renderer,
+    .ytd-rich-shelf-renderer {
+        --ytd-rich-grid-items-per-row: 3 !important;
+    }
+}
+@media (max-width: 1024px) {
+    .ytd-rich-grid-renderer,
+    .ytd-rich-shelf-renderer {
+        --ytd-rich-grid-items-per-row: 2 !important;
+    }
+}
+@media (max-width: 640px) {
+    .ytd-rich-grid-renderer,
+    .ytd-rich-shelf-renderer {
+        --ytd-rich-grid-items-per-row: 1 !important;
+    }
+}
 .ytp-caption-segment {
     color: white !important;
     font-family: sans-serif !important;
