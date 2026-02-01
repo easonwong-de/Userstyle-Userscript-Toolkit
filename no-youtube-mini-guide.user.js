@@ -3,7 +3,7 @@
 // @namespace    easonwong
 // @homepageURL  https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 // @supportURL   https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-// @version      2.2
+// @version      2.3
 // @description  Removes YouTube's mini guide
 // @author       Eason
 // @icon         https://raw.githubusercontent.com/dheereshagrwal/coloured-icons/refs/heads/master/public/logos/social%20media/youtube/youtube.svg
@@ -36,7 +36,7 @@ tp-yt-app-drawer#guide {
     width: var(--app-drawer-width, 256px) !important;
     transform: translateX(-100%) !important;
     transition: transform 200ms cubic-bezier(0, 0.8, 0.2, 1) !important;
-    background-color: var(--yt-frosted-glass-desktop);
+    background-color: var(--yt-frosted-glass-desktop, var(--yt-spec-frosted-glass-desktop));
     backdrop-filter: blur(48px);
 }
 tp-yt-app-drawer#guide[opened][reveal-nav-bar] #scrim.tp-yt-app-drawer {
