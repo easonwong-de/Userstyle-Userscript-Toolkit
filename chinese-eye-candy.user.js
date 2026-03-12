@@ -3,7 +3,7 @@
 // @namespace    easonwong
 // @homepageURL  https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 // @supportURL   https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-// @version      1.0
+// @version      1.1
 // @description  Makes Chinese text look right: auto spacing + s2t conversion
 // @author       Eason & hoothin
 // @require      https://cdn.jsdelivr.net/npm/pangu@7.2.0/dist/browser/pangu.umd.js
