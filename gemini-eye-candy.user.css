@@ -3,7 +3,7 @@
 @namespace      easonwong
 @homepageURL    https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 @supportURL     https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-@version        1.0
+@version        1.1
 @description    Eye candy for Google Gemini
 @author         Eason
 ==/UserStyle== */
@@ -23,7 +23,7 @@
 		}
 	}
 
-	*:not(.google-symbols) {
+	*:not(.google-symbols, .mathnormal) {
 		font-family: var(--macos-sans-serif) !important;
 
 		&:is(code, code *) {
