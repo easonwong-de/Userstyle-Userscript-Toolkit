@@ -3,7 +3,7 @@
 @namespace      easonwong
 @homepageURL    https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 @supportURL     https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-@version        1.1
+@version        1.2
 @description    Eye candy for Google Gemini
 @author         Eason
 ==/UserStyle== */
@@ -16,14 +16,9 @@
 		--macos-monospace:
 			"SF Mono", ui-monospace, Menlo, Consolas, Monaco, "Courier New",
 			monospace, serif;
-		:where(.theme-host):where(.zero-state-theme) {
-			--bard-color-synthetic--chat-window-surface: var(
-				--gem-sys-color--surface
-			) !important;
-		}
 	}
 
-	*:not(.google-symbols, .mathnormal) {
+	:not(.google-symbols):not(.lumi-symbols):not(.mathnormal) {
 		font-family: var(--macos-sans-serif) !important;
 
 		&:is(code, code *) {
