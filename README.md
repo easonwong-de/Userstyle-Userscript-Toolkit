@@ -1,6 +1,6 @@
 # Userstyle & Userscript Toolkit
 
-A collection of custom userstyles and userscripts to enhance web browsing experiences.
+A collection of custom userstyles and userscripts to enhance web browsing experiences. Install a suitable browser add-on (such as Tampermonkey, Violentmonkey, or Stylus) and click any file link below to install.
 
 ## Userscripts
 
