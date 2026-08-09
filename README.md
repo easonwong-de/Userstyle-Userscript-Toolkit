@@ -9,6 +9,6 @@ A collection of custom userstyles and userscripts to enhance web browsing experi
 
 ## Userstyles
 
-- **[chinese-text-project.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/chinese-text-project.user.css){:target="_blank"}**: Refines layout, margins, typography, and navigation bar styling on [Chinese Text Project](https://ctext.org){:target="_blank"}.
-- **[gemini-eye-candy.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/gemini-eye-candy.user.css){:target="_blank"}**: Enhances font typography, mathematical expressions, and code snippet wrapping on [Google Gemini](https://gemini.google.com){:target="_blank"}.
-- **[haodoo.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/haodoo.user.css){:target="_blank"}**: Improves visual styling, image hover interactions, and layout readability on [Haodoo](https://haodoo.net){:target="_blank"}.
+- **[chinese-text-project.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/chinese-text-project.user.css)**: Refines layout, margins, typography, and navigation bar styling on [Chinese Text Project](https://ctext.org).
+- **[gemini-eye-candy.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/gemini-eye-candy.user.css)**: Enhances font typography, mathematical expressions, and code snippet wrapping on [Google Gemini](https://gemini.google.com).
+- **[haodoo.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/haodoo.user.css)**: Improves visual styling, image hover interactions, and layout readability on [Haodoo](https://haodoo.net).
