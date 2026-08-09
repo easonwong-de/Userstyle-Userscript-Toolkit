@@ -12,29 +12,34 @@
 	:root {
 		--body-padding: min(10rem, 10vw);
 		--content-half-width: min(30rem, 50vw - var(--body-padding));
-		--content-padding: calc(50vw - var(--body-padding) - var(--content-half-width) + 200px);
+		--content-padding: calc(
+			50vw - var(--body-padding) - var(--content-half-width) + 200px
+		);
 		--menubar-padding-right: 2rem;
 	}
 
 	body {
-		font-family: sans-serif !important;
-		font-size: 14px !important;
-		font-weight: 300 !important;
-		line-height: 1.7 !important;
-		overflow-y: auto !important;
-		padding: 0 var(--body-padding) !important;
-		box-sizing: border-box !important;
 		position: relative !important;
+		box-sizing: border-box !important;
+		padding: 0 var(--body-padding) !important;
+		overflow-y: auto !important;
+		font-weight: 300 !important;
+		font-size: 14px !important;
+		line-height: 1.7 !important;
+		font-family: sans-serif !important;
 	}
 
 	#menubar {
-		height: auto !important;
-		left: calc(var(--body-padding) + var(--content-padding) - 200px - var(--menubar-padding-right)) !important;
 		top: 10rem !important;
-		background-color: transparent !important;
-		overflow: visible !important;
+		left: calc(
+			var(--body-padding) + var(--content-padding) - 200px -
+				var(--menubar-padding-right)
+		) !important;
 		opacity: 0.25;
 		transition: opacity 0.25s ease-out;
+		background-color: transparent !important;
+		height: auto !important;
+		overflow: visible !important;
 	}
 
 	#menubar:hover {
@@ -61,12 +66,12 @@
 
 	#content {
 		display: block !important;
-		width: 100% !important;
-		height: max-content !important;
 		position: static !important;
+		box-sizing: border-box !important;
 		margin: 0 !important;
 		padding: 10rem var(--content-padding) 0 !important;
-		box-sizing: border-box !important;
+		width: 100% !important;
+		height: max-content !important;
 		overflow: visible !important;
 	}
 
@@ -74,7 +79,9 @@
 	#content .mctext,
 	#content .etext {
 		font-weight: inherit !important;
-		font-family: New York, serif !important;
+		font-family:
+			New York,
+			serif !important;
 	}
 
 	#content div[id^="content"] {
@@ -99,10 +106,10 @@
 	}
 
 	#content h2 {
+		margin: 0 !important;
+		padding: 5rem 0 1rem !important;
 		font-weight: 200 !important;
 		font-size: 2rem !important;
-		padding: 5rem 0 1rem !important;
-		margin: 0 !important;
 	}
 
 	#content h2:first-of-type {

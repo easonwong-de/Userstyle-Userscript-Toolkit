@@ -19,8 +19,8 @@
 	}
 
 	div.a03 img {
-		max-height: 10rem !important;
 		transition: all 0.15s ease-in-out;
+		max-height: 10rem !important;
 	}
 
 	div.a03 img:hover {
@@ -36,8 +36,8 @@
 	div.a03 strong {
 		display: block !important;
 		margin: 5rem 0 1rem !important;
-		font-size: 3rem !important;
 		font-weight: 200 !important;
+		font-size: 3rem !important;
 	}
 
 	div.a03 br {
@@ -45,8 +45,8 @@
 	}
 
 	a + font:first-of-type::before {
-		content: "";
 		display: block;
 		height: 1rem;
+		content: "";
 	}
 }

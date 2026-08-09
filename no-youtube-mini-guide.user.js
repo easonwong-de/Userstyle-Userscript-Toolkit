@@ -174,8 +174,12 @@ tp-yt-paper-toast,
 		guide.setAttribute("mini-guide-visible", "");
 		container.removeAttribute("opened");
 
-		guideButton.addEventListener("click", () => guide.setAttribute("reveal-nav-bar", ""));
-		document.addEventListener("afterscriptexecute", () => window.dispatchEvent(new Event("resize")));
+		guideButton.addEventListener("click", () =>
+			guide.setAttribute("reveal-nav-bar", ""),
+		);
+		document.addEventListener("afterscriptexecute", () =>
+			window.dispatchEvent(new Event("resize")),
+		);
 
 		new MutationObserver(() => {
 			if (container.hasAttribute("opened")) guideButton.click();
