@@ -10,5 +10,6 @@ A collection of custom userstyles and userscripts to enhance web browsing experi
 ## Userstyles
 
 - **[chinese-text-project.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/chinese-text-project.user.css)**: Refines layout, margins, typography, and navigation bar styling on [Chinese Text Project](https://ctext.org).
+- **[duckduckgo-eye-candy.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/duckduckgo-eye-candy.user.css)**: Enhances typography and removes promotional clutter on [DuckDuckGo](https://duckduckgo.com).
 - **[gemini-eye-candy.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/gemini-eye-candy.user.css)**: Enhances font typography, mathematical expressions, and code snippet wrapping on [Google Gemini](https://gemini.google.com).
 - **[haodoo.user.css](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/haodoo.user.css)**: Improves visual styling, image hover interactions, and layout readability on [Haodoo](https://haodoo.net).
