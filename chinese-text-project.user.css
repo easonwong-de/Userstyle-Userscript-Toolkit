@@ -3,129 +3,129 @@
 @namespace      easonwong
 @homepageURL    https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 @supportURL     https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-@version        1.0
+@version        1.1
 @description    Eye candy for Chinese Text Project
 @author         Eason
+@match          *://ctext.org/*
+@match          *://*.ctext.org/*
 ==/UserStyle== */
 
-@-moz-document domain("ctext.org") {
-	:root {
-		--body-padding: min(10rem, 10vw);
-		--content-half-width: min(30rem, 50vw - var(--body-padding));
-		--content-padding: calc(
-			50vw - var(--body-padding) - var(--content-half-width) + 200px
-		);
-		--menubar-padding-right: 2rem;
-	}
+:root {
+	--body-padding: min(10rem, 10vw);
+	--content-half-width: min(30rem, 50vw - var(--body-padding));
+	--content-padding: calc(
+		50vw - var(--body-padding) - var(--content-half-width) + 200px
+	);
+	--menubar-padding-right: 2rem;
+}
 
-	body {
-		position: relative !important;
-		box-sizing: border-box !important;
-		padding: 0 var(--body-padding) !important;
-		overflow-y: auto !important;
-		font-weight: 300 !important;
-		font-size: 14px !important;
-		line-height: 1.7 !important;
-		font-family: sans-serif !important;
-	}
+body {
+	position: relative !important;
+	box-sizing: border-box !important;
+	padding: 0 var(--body-padding) !important;
+	overflow-y: auto !important;
+	font-weight: 300 !important;
+	font-size: 14px !important;
+	line-height: 1.7 !important;
+	font-family: sans-serif !important;
+}
 
-	#menubar {
-		top: 10rem !important;
-		left: calc(
-			var(--body-padding) + var(--content-padding) - 200px -
-				var(--menubar-padding-right)
-		) !important;
-		opacity: 0.25;
-		transition: opacity 0.25s ease-out;
-		background-color: transparent !important;
-		height: auto !important;
-		overflow: visible !important;
-	}
+#menubar {
+	top: 10rem !important;
+	left: calc(
+		var(--body-padding) + var(--content-padding) - 200px -
+			var(--menubar-padding-right)
+	) !important;
+	opacity: 0.25;
+	transition: opacity 0.25s ease-out;
+	background-color: transparent !important;
+	height: auto !important;
+	overflow: visible !important;
+}
 
-	#menubar:hover {
-		opacity: 1;
-	}
+#menubar:hover {
+	opacity: 1;
+}
 
-	#menubar > div {
-		display: inline-block !important;
-		border: none !important;
-	}
+#menubar > div {
+	display: inline-block !important;
+	border: none !important;
+}
 
-	#menu {
-		background-color: transparent !important;
-	}
+#menu {
+	background-color: transparent !important;
+}
 
-	#menu .subcontents {
-		position: relative !important;
-		left: 1rem !important;
-	}
+#menu .subcontents {
+	position: relative !important;
+	left: 1rem !important;
+}
 
-	#menu .menuitem {
-		font-weight: inherit !important;
-	}
+#menu .menuitem {
+	font-weight: inherit !important;
+}
 
-	#content {
-		display: block !important;
-		position: static !important;
-		box-sizing: border-box !important;
-		margin: 0 !important;
-		padding: 10rem var(--content-padding) 0 !important;
-		width: 100% !important;
-		height: max-content !important;
-		overflow: visible !important;
-	}
+#content {
+	display: block !important;
+	position: static !important;
+	box-sizing: border-box !important;
+	margin: 0 !important;
+	padding: 10rem var(--content-padding) 0 !important;
+	width: 100% !important;
+	height: max-content !important;
+	overflow: visible !important;
+}
 
-	#content .ctext,
-	#content .mctext,
-	#content .etext {
-		font-weight: inherit !important;
-		font-family:
-			New York,
-			serif !important;
-	}
+#content .ctext,
+#content .mctext,
+#content .etext {
+	font-weight: inherit !important;
+	font-family:
+		New York,
+		serif !important;
+}
 
-	#content div[id^="content"] {
-		background-image: none !important;
-	}
+#content div[id^="content"] {
+	background-image: none !important;
+}
 
-	#content > .text {
-		font-weight: inherit !important;
-		font-size: inherit !important;
-	}
+#content > .text {
+	font-weight: inherit !important;
+	font-size: inherit !important;
+}
 
-	#content #titleline {
-		position: absolute !important;
-		top: 1rem;
-		left: var(--body-padding);
-	}
+#content #titleline {
+	position: absolute !important;
+	top: 1rem;
+	left: var(--body-padding);
+}
 
-	#content .noprint.opt {
-		position: absolute !important;
-		top: 1rem;
-		right: var(--body-padding);
-	}
+#content .noprint.opt {
+	position: absolute !important;
+	top: 1rem;
+	right: var(--body-padding);
+}
 
-	#content h2 {
-		margin: 0 !important;
-		padding: 5rem 0 1rem !important;
-		font-weight: 200 !important;
-		font-size: 2rem !important;
-	}
+#content h2 {
+	margin: 0 !important;
+	padding: 5rem 0 1rem !important;
+	font-weight: 200 !important;
+	font-size: 2rem !important;
+}
 
-	#content h2:first-of-type {
-		padding: 1rem 0 1rem !important;
-	}
+#content h2:first-of-type {
+	padding: 1rem 0 1rem !important;
+}
 
-	#footer {
-		display: none !important;
-	}
+#footer {
+	display: none !important;
+}
 
-	a:link {
-		color: inherit !important;
-	}
+a:link {
+	color: inherit !important;
+}
 
-	a:hover {
-		color: rgb(77, 182, 255) !important;
-		text-decoration: underline !important;
-	}
+a:hover {
+	color: rgb(77, 182, 255) !important;
+	text-decoration: underline !important;
 }

@@ -3,50 +3,50 @@
 @namespace      easonwong
 @homepageURL    https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 @supportURL     https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-@version        1.0
+@version        1.1
 @description    Eye candy for Haodoo
 @author         Eason
+@match          *://haodoo.net/*
+@match          *://*.haodoo.net/*
 ==/UserStyle== */
 
-@-moz-document domain("haodoo.net") {
-	table {
-		width: 100% !important;
-	}
+table {
+	width: 100% !important;
+}
 
-	div.a03 {
-		color: #555 !important;
-		line-height: normal !important;
-	}
+div.a03 {
+	color: #555 !important;
+	line-height: normal !important;
+}
 
-	div.a03 img {
-		transition: all 0.15s ease-in-out;
-		max-height: 10rem !important;
-	}
+div.a03 img {
+	transition: all 0.15s ease-in-out;
+	max-height: 10rem !important;
+}
 
-	div.a03 img:hover {
-		transform: scale(120%);
-		box-shadow: black 0px 0px 15px;
-	}
+div.a03 img:hover {
+	transform: scale(120%);
+	box-shadow: black 0px 0px 15px;
+}
 
-	div.a03 a {
-		display: inline-block !important;
-		color: #eee !important;
-	}
+div.a03 a {
+	display: inline-block !important;
+	color: #eee !important;
+}
 
-	div.a03 strong {
-		display: block !important;
-		margin: 5rem 0 1rem !important;
-		font-weight: 200 !important;
-		font-size: 3rem !important;
-	}
+div.a03 strong {
+	display: block !important;
+	margin: 5rem 0 1rem !important;
+	font-weight: 200 !important;
+	font-size: 3rem !important;
+}
 
-	div.a03 br {
-		display: block !important;
-	}
+div.a03 br {
+	display: block !important;
+}
 
-	a + font:first-of-type::before {
-		display: block;
-		height: 1rem;
-		content: "";
-	}
+a + font:first-of-type::before {
+	display: block;
+	height: 1rem;
+	content: "";
 }
