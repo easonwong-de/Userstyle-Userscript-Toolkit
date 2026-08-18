@@ -3,35 +3,36 @@
 @namespace      easonwong
 @homepageURL    https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 @supportURL     https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-@version        1.5
+@version        1.6
 @description    Eye candy for Google Gemini
 @author         Eason
-@match          *://gemini.google.com/*
 ==/UserStyle== */
 
-:root {
-	--macos-sans-serif:
-		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-		Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-	--macos-monospace:
-		"SF Mono", ui-monospace, Menlo, Consolas, Monaco, "Courier New",
-		monospace, serif;
-	--macos-math: KaTeX_Main, Times New Roman, serif;
-}
-
-:not(.google-symbols):not(.lumi-symbols) {
-	font-family: var(--macos-sans-serif) !important;
-
-	&:is(code, code *) {
-		font-family: var(--macos-monospace) !important;
+@-moz-document domain("gemini.google.com") {
+	:root {
+		--macos-sans-serif:
+			-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+			Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		--macos-monospace:
+			"SF Mono", ui-monospace, Menlo, Consolas, Monaco, "Courier New",
+			monospace, serif;
+		--macos-math: KaTeX_Main, Times New Roman, serif;
 	}
 
-	&:is(.math-inline *, .math-block *) {
-		font-family: var(--macos-math) !important;
-	}
-}
+	:not(.google-symbols):not(.lumi-symbols) {
+		font-family: var(--macos-sans-serif) !important;
 
-code {
-	white-space: pre-wrap !important;
-	word-break: break-all !important;
+		&:is(code, code *) {
+			font-family: var(--macos-monospace) !important;
+		}
+
+		&:is(.math-inline *, .math-block *) {
+			font-family: var(--macos-math) !important;
+		}
+	}
+
+	code {
+		white-space: pre-wrap !important;
+		word-break: break-all !important;
+	}
 }
