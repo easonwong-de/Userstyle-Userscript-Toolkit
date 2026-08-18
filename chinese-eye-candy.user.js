@@ -16,6 +16,7 @@
 // @grant        GM.getValue
 // @grant        GM.registerMenuCommand
 // ==/UserScript==
+// Credit: https://github.com/hoothin/UserScripts/tree/master/Switch%20Traditional%20Chinese%20and%20Simplified%20Chinese
 // hoothin: 因一簡對多繁，所以簡轉繁需要優先排除異體字，並根據詞彙轉換。其他需要語義分析的，暫時無解。整理繁簡對照表很費時，因此不打臉的話不再更新，如有需求，刪減自用。更精細的需求可自行申請相應 API 或自行訓練語義 AI 並搭建對照數據庫。在油猴脚本裏面如此這般折騰，我是覺得沒有意義啦。。。
 
 // prettier-ignore

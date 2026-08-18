@@ -4,7 +4,7 @@ A collection of custom userstyles and userscripts to enhance web browsing experi
 
 ## Userscripts
 
-- **[chinese-eye-candy.user.js](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/chinese-eye-candy.user.js)**: Converts Simplified Chinese text to Traditional Chinese and automatically inserts spacing between CJK and Latin characters.
+- **[chinese-eye-candy.user.js](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/chinese-eye-candy.user.js)**: Converts Simplified Chinese text to Traditional Chinese and automatically inserts spacing between CJK and Latin characters (credit: [hoothin](https://github.com/hoothin/UserScripts/tree/master/Switch%20Traditional%20Chinese%20and%20Simplified%20Chinese)).
 - **[no-youtube-mini-guide.user.js](https://raw.githubusercontent.com/easonwong-de/Userstyle-Userscript-Toolkit/main/no-youtube-mini-guide.user.js)**: Removes the collapsed mini guide navigation sidebar on YouTube.
 
 ## Userstyles
