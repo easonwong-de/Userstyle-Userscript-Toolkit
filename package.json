@@ -7,8 +7,17 @@
 		"format": "prettier --write --list-different ."
 	},
 	"devDependencies": {
-		"prettier": "^3.5.0",
-		"prettier-plugin-css-order": "^2.1.2",
-		"prettier-plugin-jsdoc": "^1.3.2"
+		"prettier": "^3.9.6",
+		"prettier-plugin-css-order": "^2.2.0"
+	},
+	"prettier": {
+		"endOfLine": "lf",
+		"objectWrap": "collapse",
+		"plugins": [
+			"prettier-plugin-css-order"
+		],
+		"printWidth": 80,
+		"tabWidth": 4,
+		"useTabs": true
 	}
 }
