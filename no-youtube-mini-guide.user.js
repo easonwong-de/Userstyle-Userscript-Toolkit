@@ -3,7 +3,7 @@
 // @namespace    easonwong
 // @homepageURL  https://github.com/easonwong-de/Userstyle-Userscript-Toolkit
 // @supportURL   https://github.com/easonwong-de/Userstyle-Userscript-Toolkit/issues
-// @version      2.6
+// @version      2.7
 // @description  Removes YouTube's mini guide
 // @author       Eason
 // @icon         https://raw.githubusercontent.com/dheereshagrwal/coloured-icons/refs/heads/master/public/logos/social%20media/youtube/youtube.svg
