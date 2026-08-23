@@ -154,13 +154,19 @@
 			> :not(#efyt-controls-button) {
 			opacity: 1 !important;
 		}
-		#efyt-controls-button,
-		.ytp-efyt-button {
+		#efyt-controls-button {
 			display: grid !important;
 			justify-content: center !important;
 			align-items: center !important;
 			padding: 0 !important;
 			min-width: 48px !important;
+		}
+		.ytp-efyt-button {
+			display: grid !important;
+			justify-content: center !important;
+			align-items: center !important;
+			padding: 0 !important;
+			min-width: 40px !important;
 		}
 		#efyt-controls-button[hidden],
 		.ytp-efyt-button[hidden] {
